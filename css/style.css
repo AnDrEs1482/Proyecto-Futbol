@@ -3,11 +3,26 @@
 }
 
 .container{
-    
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr auto;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer"
+    ;
 }
 
-
-
+.header{
+    grid-area: header;
+}
+.content{
+    grid-area: content;
+}   
+.footer{
+    grid-area: footer;
+}
 
 
 .container-fluid{
@@ -19,6 +34,5 @@ img{
     height: 100px;
     width: 100px;
     display: flex;
-    margin-left: 600px;
 }
 
