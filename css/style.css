@@ -76,17 +76,4 @@ img{
   border-top: 4px solid white;
 }
 
-@media (min-width: 768px) {
-    .container{
-        min-height: 100vh;
-        grid-template-columns: 200px 1fr 200px ;
-        grid-template-rows: 100px 1fr auto;
-        grid-template-areas:
-        "header header header"
-        "content content content"
-        "footer footer footer"
-        ;
 
-        
-    }
-    }
