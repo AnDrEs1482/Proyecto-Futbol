@@ -12,6 +12,10 @@
     "content"
     "footer"
     ;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
 }
 
 .header{
@@ -20,10 +24,9 @@
 .content{
     grid-area: content;
 }   
-.footer{
+.footer {
     grid-area: footer;
 }
-
 
 .container-fluid{
     background-color: green;
@@ -36,3 +39,17 @@ img{
     display: flex;
 }
 
+@media (min-width: 768px) {
+    .container{
+        min-height: 100vh;
+        grid-template-columns: 200px 1fr 200px ;
+        grid-template-rows: 100px 1fr auto;
+        grid-template-areas:
+        "header header header"
+        "content content content"
+        "footer footer footer"
+        ;
+
+        
+    }
+    }
