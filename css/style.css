@@ -77,3 +77,20 @@ img{
 }
 
 
+
+@media (min-width: 768px) {
+    .container {
+       height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1fr auto;
+        grid-template-areas:
+        "header header header"
+        "content content content"
+        "footer footer footer"
+        ;
+    }
+
+ 
+
+
+}
