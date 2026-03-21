@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Futbol paga</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="item header">
+
+  <div class="layout">
+    <header class="Navbar">
       <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="index.html" style="font-size: 50px;">Fútbol libre</a>
@@ -26,7 +27,7 @@
                 <a class="nav-link text-white" href="Sobre nostros.html" style="font-size: 25px;">Sobre nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="nuestro mensaje.html" style="font-size: 25px;">Nuestro mensaje</a>
+                <a class="nav-link text-white" href="#" style="font-size: 25px;">Nuestro mensaje</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#" style="font-size: 25px;">Utilidad</a>
@@ -47,17 +48,15 @@
           </div>
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="item content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus, delectus vitae unde soluta facere
-        eaque? Maiores similique quidem fuga adipisci, necessitatibus ab dolorem nam reiciendis ullam possimus eveniet
-        dolor?</p>
-    </div>
+    <main class="content">
+      <p>En Fútbol Libre queremos transmitir un mensaje claro: el fútbol es de todos y para todos. Creemos en un deporte que une, que inspira y que se vive con pasión sin importar la edad, el lugar o las condiciones. Nuestro mensaje es de libertad, inclusión y amor por el juego, recordando que el fútbol va más allá de un resultado; es emoción, comunidad y una forma de compartir momentos inolvidables.</p>
+    </main>
 
-    <div class="item footer">
-      <footer class="footer bg-dark text-light">
-          <div class="row">
+    <footer class="footer bg-dark text-light">
+      <div class="container py-4">
+        <div class="row">
 
           <div class="col-md-4">
             <h5 style="font-size: 35px; display: flex; padding-top: 20px;">Fútbol libre</h5>
@@ -71,26 +70,29 @@
             </ul>
           </div>
 
-            <div class="col-md-3">
-              <h6>Guides</h6>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-light text-decoration-none">Inicio</a></li>
-                <li><a href="#" class="text-light text-decoration-none">Ayuda</a></li>
-              </ul>
-            </div>
-
-            <div class="col-md-3">
-              <h6>Community</h6>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-light text-decoration-none">Noticias</a></li>
-                <li><a href="#" class="text-light text-decoration-none">Contacto</a></li>
-              </ul>
-            </div>
+          <div class="col-md-2">
+            <h6>Guides</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Inicio</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Ayuda</a></li>
+            </ul>
           </div>
-        </div>
-      </footer>
 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+          <div class="col-md-2">
+            <h6>Community</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Noticias</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Contacto</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
