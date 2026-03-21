@@ -2,13 +2,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    
-}
-
-
-
-
 
 .container-fluid{
     background-color: green;
@@ -19,6 +12,34 @@ img{
     height: 100px;
     width: 100px;
     display: flex;
-    margin-left: 600px;
+
+}
+
+
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "Navbar"
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+.Navbar {
+  grid-area: Navbar;
+  border-bottom: 4px solid white;
+}
+.content {
+  grid-area: content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.footer {
+  grid-area: footer;
+  border-top: 4px solid white;
 }
 
